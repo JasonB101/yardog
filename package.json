@@ -1,0 +1,31 @@
+{
+  "name": "yardog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+
+  },
+  "engines": {
+    "node": "10.13.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.8",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "react-router-dom": "^4.3.1",
+    "request": "^2.88.0"
+  }
+}

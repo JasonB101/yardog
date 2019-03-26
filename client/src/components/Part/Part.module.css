@@ -1,0 +1,34 @@
+.image{
+    max-height: 150px;
+    margin: 10px;
+}
+
+.price {
+    color: green;
+}
+
+.part {
+    display: flex;
+    margin: 10px 0;
+}
+
+.partWrapper{
+    
+}
+.wrapper {
+    padding: 10px;
+}
+
+.title{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.heart{
+    right: 10px;
+    cursor: pointer;
+    float: right;
+    width: fit-content;
+    text-align: right;
+    font-size: 40px;
+    color: gold;
+}
