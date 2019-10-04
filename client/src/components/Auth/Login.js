@@ -6,8 +6,8 @@ class Signup extends Component {
     constructor() {
         super()
         this.state = {
-            email: "",
-            password: "",
+            email: "test@test.com",
+            password: "test",
             errorMessage: ""
         }
     }
